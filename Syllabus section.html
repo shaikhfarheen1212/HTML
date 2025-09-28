@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Syllabus Section</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f9;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+      font-size: 32px;
+      color: #333;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    .card {
+      padding: 20px;
+      border-radius: 12px;
+      color: white;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+      transition: 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-8px) scale(1.03);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+    }
+
+    .card h2 {
+      margin-bottom: 12px;
+      font-size: 22px;
+      border-bottom: 2px solid rgba(255,255,255,0.5);
+      padding-bottom: 5px;
+    }
+
+    .card ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .card ul li {
+      margin: 6px 0;
+      font-size: 16px;
+    }
+
+    /* Different Colors for Each Subject */
+    #c { background: linear-gradient(135deg, #56ccf2, #2f80ed); }
+    #cpp { background: linear-gradient(135deg, #ff758c, #ff7eb3); }
+    #java { background: linear-gradient(135deg, #f7971e, #ffd200); }
+    #python { background: linear-gradient(135deg, #43cea2, #185a9d); }
+    #fullstack { background: linear-gradient(135deg, #9d50bb, #6e48aa); }
+    #sql { background: linear-gradient(135deg, #ff512f, #dd2476); }
+  </style>
+</head>
+<body>
+
+  <h1>📘 Syllabus Section</h1>
+
+  <div class="grid">
+    <div class="card" id="c">
+      <h2>C Language</h2>
+      <ul>
+        <li>Introduction to C</li>
+        <li>Data Types & Operators</li>
+        <li>Control Statements</li>
+        <li>Functions & Arrays</li>
+        <li>Pointers & Structures</li>
+      </ul>
+    </div>
+
+    <div class="card" id="cpp">
+      <h2>C++</h2>
+      <ul>
+        <li>OOP Concepts</li>
+        <li>Classes & Objects</li>
+        <li>Constructors & Destructors</li>
+        <li>Inheritance & Polymorphism</li>
+        <li>Templates & STL</li>
+      </ul>
+    </div>
+
+    <div class="card" id="java">
+      <h2>Java</h2>
+      <ul>
+        <li>Introduction & Syntax</li>
+        <li>Data Types & Loops</li>
+        <li>OOP in Java</li>
+        <li>Collections Framework</li>
+        <li>Exception Handling</li>
+      </ul>
+    </div>
+
+    <div class="card" id="python">
+      <h2>Python</h2>
+      <ul>
+        <li>Basics & Syntax</li>
+        <li>Data Structures</li>
+        <li>Functions & Modules</li>
+        <li>File Handling</li>
+        <li>Libraries (NumPy, Pandas)</li>
+      </ul>
+    </div>
+
+    <div class="card" id="fullstack">
+      <h2>Full Stack Developer</h2>
+      <ul>
+        <li>HTML, CSS, JavaScript</li>
+        <li>Frontend Frameworks (React)</li>
+        <li>Backend (Node.js, Express)</li>
+        <li>Databases (MongoDB, SQL)</li>
+        <li>Deployment & Hosting</li>
+      </ul>
+    </div>
+
+    <div class="card" id="sql">
+      <h2>SQL</h2>
+      <ul>
+        <li>Introduction to Databases</li>
+        <li>DDL & DML Commands</li>
+        <li>Joins & Subqueries</li>
+        <li>Functions & Views</li>
+        <li>Stored Procedures</li>
+      </ul>
+    </div>
+  </div>
+
+</body>
+</html>
